@@ -1,0 +1,33 @@
+@import url('https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css');
+
+h1, .Game {
+  text-align: center;
+}
+
+p {
+  margin-bottom: 2rem;
+}
+
+.Board {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.Board-squares  {
+  display: grid;
+  grid-template: repeat(3, 100px) / repeat(3, 1fr);
+  width: 300px;
+  border-radius: 5px;
+  background: var(--nc-bg-2);
+  border: 3px solid var(--nc-bg-3);
+  cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.Board-squares > div  {
+  border: 3px solid var(--nc-bg-3);
+  font-size: 4rem;
+  font-weight: bold;
+}
