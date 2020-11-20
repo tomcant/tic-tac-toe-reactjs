@@ -1,2 +1,0 @@
-*{text-align:center}.Board{display:flex;margin-bottom:2rem;justify-content:center}.Board-squares{display:grid;grid-template:repeat(3,125px)/repeat(3,1fr);width:375px;border-radius:5px;background:var(--nc-bg-2);border:3px solid var(--nc-bg-3);cursor:pointer}.Board-squares>div{border:3px solid var(--nc-bg-3);font-size:5em;font-weight:700}
-/*# sourceMappingURL=main.6fab4e89.chunk.css.map */
